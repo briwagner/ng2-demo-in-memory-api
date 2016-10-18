@@ -1,0 +1,25 @@
+<div>
+  <ul>
+    <h4>Actors</h4>
+    <li *ngFor="let p of people">
+      <div class="profile">
+        <h4>{{p.name}}<img src="/assets/pictures/profile.jpg" alt="Profile picture" class="profile-pic"/></h4>
+      </div>
+      <p>Hair: {{p.hair_color}}</p>
+      <p>Gender: {{p.gender}}</p>
+    </li>
+  </ul>
+</div>
+
+<div>
+  <ul>
+    <h4>Star Warriors</h4>
+    <li *ngFor="let sw of starwarriors | slice:0:4">
+      <div class="profile">
+        <h4>{{sw.name}}<img src="/assets/pictures/profile.jpg" alt="Profile picture" class="profile-pic"/></h4>
+      </div>
+      <p>Hair: {{sw.hair_color}}</p>
+      <p>Gender: {{sw.gender}}</p>
+    </li>
+  </ul>
+</div>

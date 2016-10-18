@@ -1,0 +1,30 @@
+ul {
+    list-style: none;
+    display:inline-block;
+}
+
+li {
+    background-color: #efefef;
+    display: block;
+    padding: 10px 25px;
+    border-radius: 2%;
+    margin-bottom:15px;
+}
+
+.profile {
+    display:inline-block;
+}
+
+li h4 {
+    border-top: 3px solid #999;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+.profile-pic {
+    float:right;
+    width: 80px;
+    height: auto;
+    margin-left:40px;
+    margin-bottom:10px;
+}

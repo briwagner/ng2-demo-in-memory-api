@@ -1,3 +1,6 @@
-<h1>
-  {{title}}
-</h1>
+<nav>
+    <ul>
+        <li *ngFor="let m of main_menu"><a href="{{m.path}}">{{m.name}}</a></li>
+    </ul>
+</nav>
+<app-people></app-people>
