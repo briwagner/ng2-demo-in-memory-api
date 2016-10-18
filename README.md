@@ -4,9 +4,9 @@ This is a simple demo to show how we can mix real api calls with mock data, thro
 
 The Services directory has three data services that are called by the People component. The first two use the In Memory API, the third makes a real request.
 
--GetMainMenu is a simple request
--GetPeople emulates the format of data returning from ElasticSearch 
--GetStarwars is a request to a live outside service
+- GetMainMenu is a simple request
+- GetPeople emulates the format of data returning from ElasticSearch 
+- GetStarwars is a request to a live outside service
 
 The In Memory Web Api is not included by default by Angular CLI. Add it to the package.json list, and npm install to get it installed. Basic usage is described on the project's Github page. When enabled in the main imports, it seems to override ALL outside API calls. Set the passThru configuration option to allow queries that don't match the mock database REST structure to proceed.
 
